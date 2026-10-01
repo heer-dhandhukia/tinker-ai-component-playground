@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > div > section:nth-of-type(5) > button",
+        "componentPath": [
+          "App",
+          "SettingsDialog"
+        ],
+        "textSnippet": "Open settings"
+      },
+      "element": {
+        "tag": "button",
+        "classes": [
+          "MuiButtonBase-root",
+          "MuiButton-root",
+          "MuiButton-contained",
+          "MuiButton-sizeMedium",
+          "MuiButton-colorPrimary",
+          "css-2rwryq-MuiButtonBase-root-MuiButton-root"
+        ],
+        "componentName": "SettingsDialog",
+        "via": "Button",
+        "ownerChain": [
+          "App",
+          "SettingsDialog"
+        ],
+        "source": {
+          "file": "src/components/SettingsDialog.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "mui",
+            "evidence": [
+              "classes MuiButtonBase-root, MuiButton-root, MuiButton-contained, MuiButton-sizeMedium, MuiButton-colorPrimary",
+              "class \"css-2rwryq-MuiButtonBase-root-MuiButton-root\" (Emotion, MUI's styling engine)"
+            ],
+            "classes": [
+              "MuiButtonBase-root",
+              "MuiButton-root",
+              "MuiButton-contained",
+              "MuiButton-sizeMedium",
+              "MuiButton-colorPrimary",
+              "css-2rwryq-MuiButtonBase-root-MuiButton-root"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "border-radius",
+          "before": "4px",
+          "after": "12px",
+          "origin": "manual"
+        },
+        {
+          "kind": "style",
+          "property": "font-weight",
+          "before": "500",
+          "after": "700",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}

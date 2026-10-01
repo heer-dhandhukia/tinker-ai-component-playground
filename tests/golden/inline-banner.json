@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > div > section:nth-of-type(4) > aside",
+        "componentPath": [
+          "App",
+          "PromoBanner"
+        ],
+        "textSnippet": "Launch week: every plan is 20% off."
+      },
+      "element": {
+        "tag": "aside",
+        "classes": [],
+        "componentName": "PromoBanner",
+        "ownerChain": [
+          "App",
+          "PromoBanner"
+        ],
+        "source": {
+          "file": "src/components/PromoBanner.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "inline",
+            "evidence": [
+              "style attribute sets padding-top, padding-right, padding-bottom, padding-left, background-image, background-position-x, background-position-y, background-size, background-repeat, background-attachment, background-origin, background-clip, background-color, border-top-left-radius, border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius, color"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "padding-top",
+          "before": "12px",
+          "after": "20px",
+          "origin": "manual"
+        },
+        {
+          "kind": "text",
+          "property": "textContent",
+          "before": "Launch week: every plan is 20% off.",
+          "after": "Launch month: every plan is 20% off.",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}

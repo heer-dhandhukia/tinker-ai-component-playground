@@ -1,0 +1,9 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* SettingsDialog <button> — src/components/SettingsDialog.tsx */
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  border-radius: 12px;
+  font-weight: 700;
+}

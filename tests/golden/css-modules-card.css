@@ -1,0 +1,9 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* UserCard <article> — src/components/UserCard.tsx */
+.UserCard_card__7Yz-v {
+  padding-top: var(--space-3);
+  border-radius: 16px;
+}

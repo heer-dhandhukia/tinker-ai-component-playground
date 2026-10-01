@@ -1,0 +1,9 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* PrimaryButton <button> — src/components/PrimaryButton.tsx */
+.sc-bdvwhi.iEhlzc {
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}

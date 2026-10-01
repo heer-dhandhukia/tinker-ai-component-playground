@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > div > section:nth-of-type(1) > div",
+        "componentPath": [
+          "App",
+          "Hero"
+        ],
+        "textSnippet": "Ship UI fasterTweak this page live, then"
+      },
+      "element": {
+        "tag": "div",
+        "classes": [
+          "rounded-xl",
+          "bg-indigo-600",
+          "px-8",
+          "py-10",
+          "text-white",
+          "shadow-lg"
+        ],
+        "componentName": "Hero",
+        "ownerChain": [
+          "App",
+          "Hero"
+        ],
+        "source": {
+          "file": "src/components/Hero.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "tailwind",
+            "evidence": [
+              "utility classes: rounded-xl, bg-indigo-600, px-8, py-10, text-white, shadow-lg"
+            ],
+            "confidence": 0.95,
+            "classes": [
+              "rounded-xl",
+              "bg-indigo-600",
+              "px-8",
+              "py-10",
+              "text-white",
+              "shadow-lg"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "padding-top",
+          "before": "40px",
+          "after": "48px",
+          "origin": "manual"
+        },
+        {
+          "kind": "style",
+          "property": "border-radius",
+          "before": "12px",
+          "after": "24px",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}

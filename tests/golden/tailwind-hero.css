@@ -1,0 +1,9 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* Hero <div> — src/components/Hero.tsx */
+#root > div > section:nth-of-type(1) > div {
+  padding-top: 48px;
+  border-radius: 24px;
+}

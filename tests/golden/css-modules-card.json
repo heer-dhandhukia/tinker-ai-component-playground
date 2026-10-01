@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > div > section:nth-of-type(2) > article",
+        "componentPath": [
+          "App",
+          "UserCard"
+        ],
+        "textSnippet": "Ada LovelaceStaff EngineerPlatform"
+      },
+      "element": {
+        "tag": "article",
+        "classes": [
+          "UserCard_card__7Yz-v"
+        ],
+        "componentName": "UserCard",
+        "ownerChain": [
+          "App",
+          "UserCard"
+        ],
+        "source": {
+          "file": "src/components/UserCard.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "css-modules",
+            "evidence": [
+              "class \"UserCard_card__7Yz-v\" (defined in UserCard.module.css)"
+            ],
+            "classes": [
+              "UserCard_card__7Yz-v"
+            ],
+            "moduleFile": "UserCard.module.css"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "padding-top",
+          "before": "16px",
+          "after": "var(--space-3)",
+          "token": "var(--space-3)",
+          "origin": "manual"
+        },
+        {
+          "kind": "style",
+          "property": "border-radius",
+          "before": "8px",
+          "after": "16px",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}

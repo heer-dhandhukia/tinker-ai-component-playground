@@ -1,0 +1,13 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* Navbar <nav> — src/components/Navbar.tsx */
+.navbar {
+  padding-left: 32px;
+}
+
+/* Navbar <a> — src/components/Navbar.tsx */
+.navbar__link.navbar__link--active {
+  font-weight: 700;
+}

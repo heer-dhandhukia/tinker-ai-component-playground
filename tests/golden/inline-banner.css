@@ -1,0 +1,9 @@
+/* Tinker overrides for http://localhost:5173/
+   For reference and quick previews. The durable fix is to edit the source styles;
+   the change brief says where each one lives. */
+
+/* PromoBanner <aside> — src/components/PromoBanner.tsx */
+#root > div > section:nth-of-type(4) > aside {
+  padding-top: 20px;
+}
+/* text: "Launch week: every plan is 20% off." → "Launch month: every plan is 20% off." (not expressible in CSS; edit the component) */

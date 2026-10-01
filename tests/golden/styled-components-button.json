@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > div > section:nth-of-type(3) > button",
+        "componentPath": [
+          "App",
+          "PrimaryButton"
+        ],
+        "textSnippet": "Show promo"
+      },
+      "element": {
+        "tag": "button",
+        "classes": [
+          "sc-bdvwhi",
+          "iEhlzc"
+        ],
+        "componentName": "PrimaryButton",
+        "via": "styled.button",
+        "ownerChain": [
+          "App",
+          "PrimaryButton"
+        ],
+        "source": {
+          "file": "src/components/PrimaryButton.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "styled-components",
+            "evidence": [
+              "class \"sc-bdvwhi\" (component id)",
+              "class \"iEhlzc\" (defined in <style data-styled>)"
+            ],
+            "classes": [
+              "sc-bdvwhi",
+              "iEhlzc"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "border-radius",
+          "before": "8px",
+          "after": "20px",
+          "origin": "manual"
+        },
+        {
+          "kind": "style",
+          "property": "letter-spacing",
+          "before": "normal",
+          "after": "0.5px",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}

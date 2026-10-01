@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "tool": "tinker",
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "page": {
+    "url": "http://localhost:5173/"
+  },
+  "elements": [
+    {
+      "target": {
+        "tinkerId": "id-1",
+        "cssPath": "#root > nav",
+        "componentPath": [
+          "App",
+          "Navbar"
+        ],
+        "textSnippet": "PlaygroundDashboardProjectsTeam"
+      },
+      "element": {
+        "tag": "nav",
+        "classes": [
+          "navbar"
+        ],
+        "componentName": "Navbar",
+        "ownerChain": [
+          "App",
+          "Navbar"
+        ],
+        "source": {
+          "file": "src/components/Navbar.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "scss-or-plain-css",
+            "evidence": [
+              "class \"navbar\""
+            ],
+            "classes": [
+              "navbar"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "padding-left",
+          "before": "24px",
+          "after": "32px",
+          "origin": "manual"
+        }
+      ]
+    },
+    {
+      "target": {
+        "tinkerId": "id-2",
+        "cssPath": "#root > nav > ul > li:nth-of-type(1) > a",
+        "componentPath": [
+          "App",
+          "Navbar"
+        ],
+        "textSnippet": "Dashboard"
+      },
+      "element": {
+        "tag": "a",
+        "classes": [
+          "navbar__link",
+          "navbar__link--active"
+        ],
+        "componentName": "Navbar",
+        "ownerChain": [
+          "App",
+          "Navbar"
+        ],
+        "source": {
+          "file": "src/components/Navbar.tsx"
+        },
+        "reactBuild": "development",
+        "styling": [
+          {
+            "system": "scss-or-plain-css",
+            "evidence": [
+              "class \"navbar__link\"",
+              "class \"navbar__link--active\""
+            ],
+            "classes": [
+              "navbar__link",
+              "navbar__link--active"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "style",
+          "property": "font-weight",
+          "before": "400",
+          "after": "700",
+          "origin": "manual"
+        }
+      ]
+    }
+  ]
+}
