@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 320px;
+  padding: 16px;
+  border: 1px solid #dcdde3;
+  border-radius: 8px;
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  background: #4f46e5;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.profile-card__name {
+  margin: 0;
+  font-size: 16px;
+}
+
+.badge {
+  font-size: 12px;
+  color: #5d6170;
+}

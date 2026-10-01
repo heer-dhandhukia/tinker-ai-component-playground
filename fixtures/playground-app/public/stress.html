@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tinker fixture (5,000 nodes)</title>
+    <style>
+      #grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; font: 10px sans-serif; }
+      #grid > div { padding: 2px; border: 1px solid #dcdde3; }
+    </style>
+  </head>
+  <body>
+    <button id="remount" type="button">Remount everything</button>
+    <button id="touch" type="button">Update one text node</button>
+    <div id="grid"></div>
+    <script>
+      // 1,000 rows x (1 div + 4 spans) = 5,000 nodes.
+      const grid = document.getElementById('grid');
+      const build = () => {
+        grid.innerHTML = Array.from({ length: 1000 }, (_, row) =>
+          `<div><span>row ${row}</span><span>a</span><span>b</span><span>c</span></div>`).join('');
+      };
+      build();
+      document.getElementById('remount').addEventListener('click', build);
+      document.getElementById('touch').addEventListener('click', () => {
+        grid.firstElementChild.lastElementChild.textContent = String(Math.random());
+      });
+    </script>
+  </body>
+</html>

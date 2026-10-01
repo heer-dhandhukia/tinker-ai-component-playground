@@ -1,0 +1,4 @@
+/* Theme + utilities only: no preflight, so Tailwind does not restyle the other sections. */
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
