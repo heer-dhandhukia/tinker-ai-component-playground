@@ -1,0 +1,24 @@
+{
+  "name": "tinker-companion",
+  "description": "Local companion for Tinker: maps exported changesets to source edits and writes them after approval.",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "tinker-companion": "./src/cli.js"
+  },
+  "exports": {
+    ".": "./src/plan.js",
+    "./vite-plugin": "./src/vite-plugin.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.9",
+    "diff": "^9.0.0",
+    "postcss": "^8.5.28",
+    "postcss-scss": "^4.0.9",
+    "zod": "^4.6.5"
+  }
+}
